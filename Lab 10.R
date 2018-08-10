@@ -12,7 +12,7 @@ CarData = mtcars[1:7] #Use only first 7 columns from the table
 CarsLM1 = lm(mpg ~ cyl + disp + hp + drat + wt + qsec, data = CarData)
 
 summary(CarsLM1)
-
+#vamos a sumarle unos comentarios ca para ver como anda la cosa pue. 
 #p-value < 0.0001. R sauqre = 0.85
 
 windows()
